@@ -1,2 +1,17 @@
-# range-for-given-value.c
-print the range for given value
+ #include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>=10&&a<=20)
+    {
+        printf("true");
+    }
+    else
+    {
+        printf("false");
+    }
+    
+    
+       
+}
